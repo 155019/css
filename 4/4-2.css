@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  padding: 50px;
+  border: 7px solid #03c6ac;
+  font-family: "Montserrat", sans-serif;
+}
+
+.screen-header {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.screen-header__title {
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.top-component {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.top-component__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 15%;
+  margin-right: 25px;
+  background-color: #ffbc12;
+  color: white;
+  border: 3px solid black;
+}
+.top-component__title {
+  font-size: 50px;
+  font-weight: 800;
+}
+.top-component__subtitle {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.middle-component {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+.middle-component__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid black;
+  border-bottom-width: 5px;
+}
+.middle-component__btn:first-child {
+  width: 200px;
+  border-radius: 20px;
+}
+.middle-component__btn h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.bottom-component {
+  margin-top: 45px;
+}
+.bottom-component__list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.bottom-component__icon {
+  width: 65px;
+  height: 65px;
+  border-radius: 15%;
+  border: 3px solid black;
+  margin-right: 20px;
+}
+.bottom-component__list:first-child .bottom-component__icon {
+  background-color: #f85a2a;
+}
+.bottom-component__list:nth-child(2) .bottom-component__icon {
+  background-color: #fe89bb;
+}
+.bottom-component__list:nth-child(3) .bottom-component__icon {
+  background-color: #1a47e4;
+}
+.bottom-component__list:last-child .bottom-component__icon {
+  background-color: #03c6ac;
+}
+
+.bottom-component__text {
+  line-height: 120%;
+  font-size: 25px;
+  font-weight: bold;
+}
+.bottom-component__text li {
+  font-size: 15px;
+  font-weight: normal;
+}
